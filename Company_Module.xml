@@ -5,6 +5,8 @@
     <Company_Module>
       <active></active>
       <codePool></codePool>
+      <depends>
+      </depends>
     </Company_Module>
   </modules>
 </config>
