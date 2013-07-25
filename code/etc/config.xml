@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+  <modules>
+    <Company_Module>
+      <version>0.0.0.1</version>
+    </Company_Module>
+  </modules>
+  <global>
+    <models>
+      <short_name>
+        <class>Company_Module_Model</class>
+      </short_name>
+    </models>
+    <helpers>
+      <short_name>
+        <class>Company_Module_Helper</class>
+      </short_name>
+    </helpers>
+    <blocks>
+      <short_name>
+        <class>Company_Module_Block</class>
+      </short_name>
+    </blocks>
+  </global>
+  <frontend>
+    <routers>
+      <short_name>
+        <use>standard</use>
+        <args>
+          <module>Company_Module</module>
+          <frontName>short_name</frontName>
+        </args>
+      </short_name>
+    </routers>
+    <layout>
+      <updates>
+        <short_name>
+          <file>company/module.xml</file>
+        </short_name>
+      </updates>
+    </layout>
+  </frontend>
+</config>

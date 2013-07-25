@@ -1,0 +1,5 @@
+Company_Module.xml                    app/etc/modules/Company_Module.xml
+code/                                 app/code/local/Company/Module/
+design/frontend/layout/module.xml     app/design/frontend/default/default/layout/company/module.xml
+design/frontend/template/module/      app/design/frontend/default/default/template/company/module/
+skin/frontend/js/module.js            skin/frontend/default/default/js/company/module.js
